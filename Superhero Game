@@ -1,0 +1,66 @@
+#CODESHARE:
+answer = input("What superhero do you want to be? 1: Superman, 2: Spiderman, 3: Wonderwoman ")
+
+superhero1 = "1"
+superhero2 = "2"
+superhero3 = "3"
+
+#SUPERMAN:
+if answer == superhero1:
+    print("AWESOME CHOICE ;)")
+    answer2 = input("What superpower do you want? 1: Laser eyes, 2: Super strength ")
+    choice1 = "1"
+    choice2 = "2"
+    if answer2 == choice1:
+        print("niiiice")
+    if answer2 == choice2:
+        print("niiiice")
+    answer6 = input("A super villain has come to town! What will you do? 1.fight, 2.run")
+    choice1 = "1"
+    choice2 = "2"
+    if answer6 == choice1:
+        print("Hurry up and fight!")
+        answera = input("Do you... 1.Usea your power now or 2.Save it for later ?")
+        choice1 = "1"
+        choice2 = "2"
+    if answer6 == choice2:
+        print("I'm disapointed :(")
+        answerb = input("You've been running for 5 minutes, do you want to... 1.Take a break, and look back or 2.Keep going ?")
+        choice1 = "1"
+        choice2 = "2"
+
+#SPIDERMAN:
+if answer == superhero2:
+    print("YASSSS")
+    answer3 = input("What superpower do you want? 1: Spiderwebs, 2: Wall-crawling")
+    choice3 = "1"
+    choice4 = "2"
+    if answer3 == choice3:
+        print("Good Choice!")
+    if answer3 == choice4:
+        print("Good Choice!")
+    answer7 = input("A super villain has come to town! What will you do? 1.fight, 2.run")
+    choice1 = "1"
+    choice2 = "2"
+    if answer7 == choice1:
+        print("Hurry up and fight!")
+    if answer7 == choice2:
+        print("I'm disappointed :(")
+
+#WONDERWOMAN:
+if answer == superhero3:
+    print("GO WOMEN!")
+    answer4 = input("What superpower do you want? 1: Super Whip, 2: Super strength")
+    choice5 = "1"
+    choice6 = "2"
+    if answer4 == choice5:
+        print("Good Choice!")
+    if answer4 == choice6:
+        print("Good Choice!")
+    answer8 = input("A super villain has come to town! What will you do? 1.fight, 2.run")
+    choice1 = "1"
+    choice2 = "2"
+    if answer8 == choice1:
+        print("Hurry up and fight!")
+    if answer8 == choice2:
+        print("I'm disappointed :(")
