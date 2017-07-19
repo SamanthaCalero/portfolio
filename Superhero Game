@@ -20,14 +20,18 @@ if answer == superhero1:
     choice2 = "2"
     if answer6 == choice1:
         print("Hurry up and fight!")
-        answera = input("Do you... 1.Usea your power now or 2.Save it for later ?")
+        answera = input("Do you... 1.Use your power now or 2.Save it for later ?")
         choice1 = "1"
         choice2 = "2"
     if answer6 == choice2:
         print("I'm disapointed :(")
-        answerb = input("You've been running for 5 minutes, do you want to... 1.Take a break, and look back or 2.Keep going ?")
+        answerb = input("You've been running for 5 minutes, do you want to... 1.Take a break, and look back or 2. Keep going ?")
         choice1 = "1"
         choice2 = "2"
+        if answerb == choice1:
+            print("Thinking about going back there?")
+        if answerb == choice2:
+            print("really!? You are such a coward")
 
 #SPIDERMAN:
 if answer == superhero2:
@@ -64,3 +68,4 @@ if answer == superhero3:
         print("Hurry up and fight!")
     if answer8 == choice2:
         print("I'm disappointed :(")
+
