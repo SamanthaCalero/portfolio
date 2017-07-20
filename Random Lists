@@ -1,0 +1,21 @@
+#Random Name Generator:
+from random import *
+
+#LEVEL 1:
+
+pet_names = ['Acorn','Bubbles','Cupcake','Daphne','Ed','Foxy','Goofy','Hershey','Indira','Jazzy','Kai','Laguna','Madonna','Nico','Ozzie','Pepper', 'Quattro','Rufus','Sushi','Tango','Vegas','Winnie','Yoshiko','Zeke']
+#print(pet_names)
+
+#for i in range(len(pet_names)):
+        #print(pet_names[randrange(len(pet_names))])
+
+#LEVEL 2:
+
+menu = ['pizza','chocolate','icecream','tacos']
+
+for i in range(len(menu)):
+    print(menu[randrange(len(menu))])
+
+#LEVEL 3:
+
+Haiku = ['Seee the little fly','I have much money','']
