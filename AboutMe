@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:lightpink;
+}
+<title> ABOUT ME </title>
+h1 {
+  color: white;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<h1> ABOUT ME: </h2>
+<h2> Samantha Calero </h1>
+
+<p>Some of my hobbies/favorite things to do:</p>
+
+<ul>
+  <li>Running</li>
+  <li>Listening to Music</li>
+  <li>Coding</li>
+  <li>Reading</li>
+  <li>Yoga</li>
+  <li>Baking</li>
+
+</ul>
+
+<img src ="running.jpg" width="130" height="130">
+
+</body>
+<html>
