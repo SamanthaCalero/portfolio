@@ -37,3 +37,51 @@
 
 </body>
 </html>
+
+------------------------------------------------------------------
+
+/* Style Sheet*/
+
+.header {
+  text-align: center;
+
+}
+.header h1 {
+  font-size: 100px;
+  color: green;
+  border-bottom: solid 2px black;
+}
+.nav {
+  padding: 0;
+}
+.nav li{
+  list-style: none;
+  font-size: 30px;
+  display: inline;
+  padding: 0 50px;
+}
+
+.section {
+  border: solid 2px green;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.images{
+  background-color: yellow;
+  display: none;
+}
+.images img{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+---------------------------------------------------------------
+
+//onclick
+function displayImages(){
+  document.getElementById("unhide").style.display = "block";
+};
+
+
+
