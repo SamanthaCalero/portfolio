@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+  <div class="header">
+      <h1>Hello, world</h1>
+      <ul class="nav">
+        <li>About</li>
+        <li>Contact</li>
+        <li>Projects</li>
+        <li>Press</li>
+      </ul>
+  </div>
+
+<body>
+  <!--TO DO:
+      1. add classes/ids and appropriate divs
+      2. add css to make horizontal nav bar
+      3. add a tags so tabs link to somewhere
+    -->
+<div class="section">
+  <h2>Making websites is fun!</h2>
+  <button id= "creations" onclick = "displayImages()">Click here for some of my creations</button>
+</div>
+
+<div class="images" id="unhide">
+  <img src="img/web-one.jpg">
+  <img src="img/web-two.jpg">
+  <img src="img/web-three.jpg">
+  <img src="img/web-four.jpg">
+</div>
+
+<!--SCRIPTS-->
+<script src="script.js"></script>
+
+</body>
+</html>
